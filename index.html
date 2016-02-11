@@ -4,7 +4,7 @@
   <link href='https://fonts.googleapis.com/css?family=Arimo|Puritan' rel='stylesheet' type='text/css'>
   <title>Jeffrey Eaton</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <script src="jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="jquery-1.11.3.js"></script>
 </head>
 <body>
   <div class="top">
@@ -55,7 +55,7 @@
     </div>
   </div>
 
-<!-- Bubbles animation; code from StackOverflow -->
+<!-- Bubbles animation -->
   <div id="lab">
 	<div id="beaker">
 		<span class="bubble"> <span class="glow"></span></span>
@@ -70,28 +70,28 @@
   <div id="diver-normal"><img src="diver-in-white.png" alt="diver"></div>
   </div>
 
-<!-- Displays the content after hiding any content already displayed. -->
+<!-- Show and hide divs -->
   <script>
   $(document).ready(function(){
-  $("#voyages-link").click(function() {
-    $("div.voyages").hide();
-	$("div.signal").hide();
-    $("div.facts").hide();
-    $("div.voyages").show();
-  });
+    $("#voyages-link").click(function() {
+      $("div.voyages").hide();
+      $("div.signal").hide();
+      $("div.facts").hide();
+      $("div.voyages").show();
+    });
     $("#facts-link").click(function() {
-    $("div.voyages").hide();
-	$("div.signal").hide();
-    $("div.facts").hide();
-    $("div.facts").show();
+      $("div.voyages").hide();
+      $("div.signal").hide();
+      $("div.facts").hide();
+      $("div.facts").show();
+    });
+    $("#signal-link").click(function() {
+      $("div.voyages").hide();
+      $("div.signal").hide();
+      $("div.facts").hide();
+      $("div.signal").show();
+    });
   });
-  $("#signal-link").click(function() {
-    $("div.voyages").hide();
-	$("div.signal").hide();
-    $("div.facts").hide();
-    $("div.signal").show();
-  });
-  });
-  </script>
+</script>
 </body>
 </html>
