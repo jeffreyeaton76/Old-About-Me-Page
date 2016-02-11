@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -74,22 +75,13 @@
   <script>
   $(document).ready(function(){
     $("#voyages-link").click(function() {
-      $("div.voyages").hide();
-      $("div.signal").hide();
-      $("div.facts").hide();
-      $("div.voyages").show();
+      $("div.voyages").toggle();
     });
     $("#facts-link").click(function() {
-      $("div.voyages").hide();
-      $("div.signal").hide();
-      $("div.facts").hide();
-      $("div.facts").show();
+      $("div.facts").toggle();
     });
     $("#signal-link").click(function() {
-      $("div.voyages").hide();
-      $("div.signal").hide();
-      $("div.facts").hide();
-      $("div.signal").show();
+      $("div.signal").toggle();
     });
   });
 </script>

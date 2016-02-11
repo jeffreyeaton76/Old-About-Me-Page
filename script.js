@@ -1,5 +1,5 @@
 function toggleVoyages() {
-  var voyagesDiv = document.getElementById('voyages');
+    var voyagesDiv = document.getElementById('voyages');
 	var displaySettingVoyages = voyagesDiv.style.display;
 	var factsDiv = document.getElementById('facts');
 	var displaySettingFacts = factsDiv.style.display;
@@ -19,7 +19,7 @@ function toggleVoyages() {
 	}
 };
 function toggleFacts() {
-  var voyagesDiv = document.getElementById('voyages');
+    var voyagesDiv = document.getElementById('voyages');
 	var displaySettingVoyages = voyagesDiv.style.display;
 	var factsDiv = document.getElementById('facts');
 	var displaySettingFacts = factsDiv.style.display;
@@ -39,7 +39,7 @@ function toggleFacts() {
 	}
 };
 function toggleSignal() {
-  var voyagesDiv = document.getElementById('voyages');
+    var voyagesDiv = document.getElementById('voyages');
 	var displaySettingVoyages = voyagesDiv.style.display;
 	var factsDiv = document.getElementById('facts');
 	var displaySettingFacts = factsDiv.style.display;
